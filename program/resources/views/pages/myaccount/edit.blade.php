@@ -17,7 +17,7 @@
             </div>
         @endif
                 <div class="img-profile d-flex justify-content-center">
-                <img class="rounded-circle" src="/storage/assets/profile/{{$user->image}}" style="width:100px;,height:100px;">
+                <img class="rounded-circle" src="/storage/assets/profile/{{$user->image}}" style="width:100px; height:100px;">
             </div>
             <form action="{{route('myAccountUpdate', Auth::user()->id)}}" method="post" enctype="multipart/form-data">
                 @method('PUT')

@@ -8,7 +8,7 @@
         <div class="container">
             <h2 class="text-center">Edit Profile</h2>
             <div class="img-profile d-flex justify-content-center">
-                <img class="rounded-circle" src="/storage/assets/profile/{{$user->image}}" style="width:150px;,height:150px;">
+                <img class="rounded-circle" src= "/storage/assets/profile/{{ $user->image}}" style="width:100px; height:100px;">
             </div>
             <form>
                 <div class="form-group">
